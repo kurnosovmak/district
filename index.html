@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
    <head>
@@ -431,3 +432,438 @@
       <script src="js/main.js"></script>
    </body>
 </html>
+=======
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>District</title>
+      <meta charset="utf-8">
+      <meta name="description" content="" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+      
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+      <script type="text/javascript">$(window).on('load', function () {
+         var $preloader = $('#p_prldr'),
+         $svg_anm   = $preloader.find('.svg_anm');
+         $svg_anm.fadeOut();
+         $preloader.delay(500).fadeOut('slow');
+         });
+      </script>
+      <link rel="stylesheet" href="css/preloader.css"/>        
+      <link rel="shortcut icon" href="./img/shortcut.png">
+      <link rel="stylesheet" href="css/MainPage.css"/>
+   </head>
+   <body class="home" id="page">
+      
+      <!--Preloader-->
+      <div id="p_prldr"><div class="contpre"><section>
+         <div class='sk-circle-bounce'>
+             <div class='sk-child sk-circle-1'></div>
+             <div class='sk-child sk-circle-2'></div>
+             <div class='sk-child sk-circle-3'></div>
+             <div class='sk-child sk-circle-4'></div>
+             <div class='sk-child sk-circle-5'></div>
+             <div class='sk-child sk-circle-6'></div>
+             <div class='sk-child sk-circle-7'></div>
+             <div class='sk-child sk-circle-8'></div>
+             <div class='sk-child sk-circle-9'></div>
+             <div class='sk-child sk-circle-10'></div>
+             <div class='sk-child sk-circle-11'></div>
+             <div class='sk-child sk-circle-12'></div>
+         </div>
+      </section></div></div>
+   
+      <!-- Header -->
+      <header class="main-header">
+         <div class="container">
+            <div class="header-content">
+               <a href="index.html" id="logo">District</a>
+               <a href="#" class="hamburger"></a>
+
+               <nav class="site-nav">
+                  <ul class="clean-list site-links">
+                     <li><a href="#">О нас</a></li>
+                     <li><a href="searching-reservation.html">Бронирование</a></li>
+                     <li><a href="#">Доставка</a></li>
+                     <li><a href="news-main.html">Новости</a></li>
+                     <li><a href="#">Контакты</a></li>
+                  </ul>
+
+                  <a href="login.html" class="btn btn-outlined">Войти</a>
+               </nav>
+
+            </div>
+         </div>
+      </header>
+
+      <!-- Main Content -->
+      <div class="content-box">
+         <!-- Hero Section -->
+         <section class="section section-hero">
+            <div class="hero-box">
+               <div class="container">
+                  <div class="hero-text align-center">
+                     <h1>Find a place</h1>
+                     <p>for your soul</p>
+                  </div>
+
+                  <form class="destinations-form">
+                     <div class="input-line">
+                        <input type="text" name="destination" value="" class="form-input check-value" placeholder="КУДА БЫ ВЫ ХОТЕЛИ ПОЙТИ?" />
+                        <button type="button" name="destination-submit" class="form-submit btn btn-special">Поиск</button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+
+            <!-- Statistics Box -->
+            <div class="container">
+               <div class="statistics-box">
+                  <div class="statistics-item">
+                     <span class="value">150</span>
+                     <p class="title">Городов</p>
+                  </div>
+
+                  <div class="statistics-item">
+                     <span class="value">1,000</span>
+                     <p class="title">Заведений</p>
+                  </div>
+
+                  <div class="statistics-item">
+                     <span class="value">3,500</span>
+                     <p class="title">Блюд</p>
+                  </div>
+
+                  <div class="statistics-item">
+                     <span class="value">500,000</span>
+                     <p class="title">Пользователей</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!-- Destinations Section -->
+         <section class="section section-destination">
+            <!-- Title -->
+            <div class="section-title">
+               <div class="container">
+                  <h2 class="title" id="top-p">Найди себе место по душе</h2>
+                  <p class="sub-title">Ниже предоставлены разные виды заведений для проведения досуга. Выбрав нужное вам заведение, вы можете забронировать его, либо сохранить его в "Избраном"</p>
+               </div>
+            </div>
+
+            <!-- Content -->
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-16 col-xs-24">
+                     <div class="destination-box">
+                        <div class="box-cover">
+                           <a href="#">
+                              <img src="img/rest.jpg" alt="destination image" />
+                           </a>
+                        </div>
+
+                        <span class="boats-qty">100</span>
+
+                        <div class="box-details">
+                           <div class="box-meta">
+                              <h4 class="city">Рестораны</h4>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-md-8 col-sm-12 col-xs-24">
+                     <div class="destination-box">
+                        <div class="box-cover">
+                           <a href="#">
+                              <img src="img/cafe.jpg" alt="destination image" />
+                           </a>
+                        </div>
+
+                        <span class="boats-qty">201</span>
+
+                        <div class="box-details">
+                           <div class="box-meta">
+                              <h4 class="city">Кафе</h4>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-md-8 col-sm-12 col-xs-24">
+                     <div class="destination-box">
+                        <div class="box-cover">
+                           <a href="#">
+                              <img src="img/bar.jpg" alt="destination image" />
+                           </a>
+                        </div>
+
+                        <span class="boats-qty">150</span>
+
+                        <div class="box-details">
+                           <div class="box-meta">
+                              <h4 class="city">Бары</h4>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-md-8 col-sm-12 col-xs-24">
+                     <div class="destination-box">
+                        <div class="box-cover">
+                           <a href="#">
+                              <img src="img/hookah.jpg" alt="destination image" />
+                           </a>
+                        </div>
+
+                        <span class="boats-qty">140</span>
+
+                        <div class="box-details">
+                           <div class="box-meta">
+                              <h4 class="city">Кальянные</h4>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-md-8 col-sm-12 col-xs-24">
+                     <div class="destination-box">
+                        <div class="box-cover">
+                           <a href="#">
+                              <img src="img/pool.jpg" alt="destination image" />
+                           </a>
+                        </div>
+
+                        <span class="boats-qty">111</span>
+
+                        <div class="box-details">
+                           <div class="box-meta">
+                              <h4 class="city">Бильярдные</h4>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                     <div class="col-md-8 col-sm-12 col-xs-24">
+                        <div class="destination-box">
+                           <div class="box-cover">
+                              <a href="#">
+                                 <img src="img/keg.jpg" alt="destination image" />
+                              </a>
+                           </div>
+
+                           <span class="boats-qty">121</span>
+
+                           <div class="box-details">
+                              <div class="box-meta">
+                                 <h4 class="city">Боулинг-клубы</h4>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+            </div>
+         </section>
+
+         <!-- Parallax Box -->
+         <div class="parallax-box">
+            <div class="container">
+               <div class="text align-center">
+                  <h1>Не хватает свободного времени?</h1>
+                  <p>Вы в любой момент можете перейти к заказу любимых блюд</p>
+
+                  <a href="#" class="btn btn-special no-icon size-2x">Заказать</a>
+               </div>
+            </div>
+         </div>
+
+         <!-- Boats Section -->
+         <section class="section section-boats">
+            <!-- Title -->
+            <div class="section-title">
+               <div class="container">
+                  <h2 class="title">Сделайте заказ прямо сейчас</h2>
+                  <p class="sub-title">Из списка ниже вы можете выбрать любимую кухню и закакзать понравившееся блюдо</p>
+               </div>
+            </div>
+
+            <!-- Content -->
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12 col-xs-24">
+                     <div class="boat-box">
+                        <div class="box-cover">
+                           <img src="img/rus-kit.jpg" alt="destination image" />
+                        </div>
+
+                        <span class="boat-price">200₽-600₽</span>
+
+                        <div class="box-details">
+                           <div class="box-meta">
+                              <h4 class="boat-name">Русская кухня</h4>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-sm-12 col-xs-24">
+                     <div class="boat-box">
+                        <div class="box-cover">
+                           <img src="img/evr-kit.jpg" alt="destination image" />
+                        </div>
+
+                        <span class="boat-price">400₽-1000₽</span>
+
+                        <div class="box-details">
+                           <div class="box-meta">
+                              <h4 class="boat-name">Европейская кухня</h4>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-sm-12 col-xs-24">
+                     <div class="boat-box">
+                        <div class="box-cover">
+                           <img src="img/jap-kit.jpg" alt="destination image" />
+                        </div>
+
+                        <span class="boat-price">300₽-800₽</span>
+
+                        <div class="box-details">
+                           <div class="box-meta">
+                              <h4 class="boat-name">Азиатская кухня</h4>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                     <div class="col-sm-12 col-xs-24">
+                        <div class="boat-box">
+                           <div class="box-cover">
+                              <img src="img/kav-kit.jpg" alt="destination image" />
+                           </div>
+
+                           <span class="boat-price">200₽-700₽</span>
+
+                           <div class="box-details">
+                              <div class="box-meta">
+                                 <h4 class="boat-name">Восточная кухня</h4>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-sm-12 col-xs-24">
+                        <div class="boat-box">
+                           <div class="box-cover">
+                              <img src="img/am-kit.jpg" alt="destination image" />
+                           </div>
+
+                           <span class="boat-price">150₽-300₽</span>
+
+                           <div class="box-details">
+                              <div class="box-meta">
+                                 <h4 class="boat-name">Американская кухня</h4>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-sm-12 col-xs-24">
+                        <div class="boat-box">
+                           <div class="box-cover">
+                              <img src="img/mex-kit.jpg" alt="destination image" />
+                           </div>
+
+                           <span class="boat-price">200₽-400₽</span>
+
+                           <div class="box-details">
+                              <div class="box-meta">
+                                 <h4 class="boat-name">Латиноамериканская кухня</h4>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+            </div>
+         </section>
+      </div>
+
+      <!-- Footer -->
+      <footer class="main-footer">
+         <div class="container">
+            <div class="row" id="flex-r">
+               <div class="col-md-5">
+                  <div class="widget widget_links">
+                     <h5 class="widget-title">Компания</h5>
+                     <ul>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Поддержка</a></li>
+                        <li><a href="#">Сотрудничество</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="user-agreement.html">Конфидециальность</a></li>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="col-md-5">
+                  <div class="widget widget_links">
+                     <h5 class="widget-title">Топ Запросов</h5>
+                     <ul>
+                        <li><a href="#">Рестораны</a></li>
+                        <li><a href="#">Кафе</a></li>
+                        <li><a href="#">Кальянные</a></li>
+                        <li><a href="#">Бары</a></li>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="col-md-9">
+                  <div class="widget widget_social">
+                     <h5 class="widget-title">Подпишитесь на наши новости</h5>
+                     <form class="subscribe-form">
+                        <div class="input-line">
+                           <input type="text" name="subscribe-email" value="" placeholder="Email" />
+                        </div>
+                        <button type="button" name="subscribe-submit" class="btn btn-special no-icon">Подписаться</button>
+                     </form>
+
+                     <ul class="clean-list social-block">
+                        <li>
+                           <a href="#"><i class="icon-facebook"></i></a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="icon-twitter"></i></a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="icon-google-plus"></i></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="col-md-5">
+                  <div class="widget widget_links mob-li">
+                     <h5 class="widget-title">Наше мобильное приложение</h5>
+                     <ul>
+                        <li><a href="#"><img src="img/ios.png" class="mob-img"><span class="mob-s">iOS</span></a></li>
+                        <li><a href="#"><img src="img/android.png" class="mob-img"><span class="mob-s">Android</span></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-md-5" id="rights">
+            <h5 class="widget-title">Copyright © 2018 District.su. All Rights Reserved.</h5>
+         </div>
+      </footer>
+
+      <!-- Scripts -->
+      <script src="js/functions.js"></script>
+      <script src="js/main.js"></script>
+   </body>
+</html>
+>>>>>>> 52abebbec592b81be9af8a6ee02a055f212e1e91
