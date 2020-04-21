@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>District</title>
+   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+   <script type="text/javascript">$(window).on('load', function () {
+      var $preloader = $('#p_prldr'),
+      $svg_anm   = $preloader.find('.svg_anm');
+      $svg_anm.fadeOut();
+      $preloader.delay(500).fadeOut('slow');
+      });
+   </script>
+   <link rel="stylesheet" href="css/preloader.css"/>  
+   <link rel="stylesheet" href="./css/bootstrap.css">
+   <link rel="stylesheet" href="./css/Login.css">
+   <link rel="stylesheet" href="./css/font-awesome.css">
+   <link rel="stylesheet" href="./css/ionicons.css">
+   <link rel="shortcut icon" href="./img/shortcut.png">
+</head>
+<body class="hold-transition register-page">
+
+   <!--Preloader-->
+   <div id="p_prldr"><div class="contpre"><section>
+      <div class='sk-circle-bounce'>
+         <div class='sk-child sk-circle-1'></div>
+         <div class='sk-child sk-circle-2'></div>
+         <div class='sk-child sk-circle-3'></div>
+         <div class='sk-child sk-circle-4'></div>
+         <div class='sk-child sk-circle-5'></div>
+         <div class='sk-child sk-circle-6'></div>
+         <div class='sk-child sk-circle-7'></div>
+         <div class='sk-child sk-circle-8'></div>
+         <div class='sk-child sk-circle-9'></div>
+         <div class='sk-child sk-circle-10'></div>
+         <div class='sk-child sk-circle-11'></div>
+         <div class='sk-child sk-circle-12'></div>
+      </div>
+   </section></div></div>
+
+   <!--Header-->
+   <header class="main-header">
+      <div class="container">
+         <div class="header-content">
+            <a href="index.html" id="logo">District</a>
+            <a href="#" class="hamburger"></a>
+
+            <nav class="site-nav">
+               <ul class="clean-list site-links">
+                  <li><a href="#">О нас</a></li>
+                  <li><a href="searching-reservation.html">Бронирование</a></li>
+                  <li><a href="#">Доставка</a></li>
+                  <li><a href="news-main.html">Новости</a></li>
+                  <li><a href="#">Контакты</a></li>
+               </ul>
+
+               <a href="login.html" class="btn btn-outlined">Войти</a>
+            </nav>
+
+         </div>
+      </div>
+   </header>
+
+   <!--Main Content-->
+   <div class="register-box">
+
+      <div class="register-box-body">
+         <p class="login-box-msg">Регистрация<a href="index.html"><img src="./img/cross.png" id="btn-cross"></a></p>
+
+         <form action="../../index.html" method="post">
+            <div class="form-group has-feedback">
+               <input type="text" class="form-control" placeholder="Имя">
+               <span class="glyphicon glyphicon-user form-control-feedback"></span>
+            </div>
+            <div class="form-group has-feedback">
+               <input type="email" class="form-control" placeholder="Email">
+               <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+            </div>
+            <div class="form-group has-feedback">
+               <input type="password" class="form-control" placeholder="Пароль">
+               <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+            </div>
+            <div class="form-group has-feedback">
+               <input type="password" class="form-control" placeholder="Повторите пароль">
+               <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
+            </div>
+            <div class="row">
+               <div class="col-xs-12">
+                  <div class="check reg-check">
+                     <input id="reg-agree" type="checkbox" name="type" value="reg-agree">
+                     <label for="reg-agree"><label> Я принимаю <a href="user-agreement.html" class="bold-l">пользовательское соглашение</a></label></label>
+                  </div>
+               </div>
+            </div>
+            <div class="row regist">
+               <div class="col-xs-7 digit" id="reg">
+                  <button type="button" name="destination-submit" class="form-submit btn btn-special">Зарегистрироваться</button>
+               </div>
+            </div>
+         </form>
+
+         <div class="social-auth-links text-center">
+            <p>- ИЛИ -</p>
+            <a href="#" class="btn btn-block btn-social btn-vk btn-flat"><i class="fa fa-vk"></i> Войти с помощью VK</a>
+            <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Войти с помощью Facebook</a>
+            <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Войти с помощью Google+</a>
+         </div>
+
+         <a href="login.html" class="text-center bold-l">Я уже зарегистрирован</a>
+      </div>
+   </div>
+
+   <!--Scripts-->
+   <script src="./js/bootstrap.min.js"></script>
+   <script src="js/main.js"></script>
+   <script src="./js/icheck.min.js"></script>
+</script>
+</body>
+</html>
